@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "@langchain/core": "^0.3.40",
+    "@langchain/openai": "^0.4.4",
+    "dotenv": "^16.4.7",
+    "env": "^0.0.2",
+    "http": "^0.0.1-security",
+    "langchain": "^0.3.19"
+  }
+}

@@ -10,4 +10,6 @@ const messages = [
   new HumanMessage("My name is joker"),
 ];
 
-console.log(await model.invoke(messages));
+let aiMessage = await model.invoke(messages);
+
+console.log(aiMessage.content);
